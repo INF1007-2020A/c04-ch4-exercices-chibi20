@@ -4,7 +4,7 @@
 
 def is_even_len(string: str) -> bool:
     b = len(string)
-    if 
+    if b 
     pass
 
 
