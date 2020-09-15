@@ -10,7 +10,7 @@ def is_even_len(string: str) -> bool:
         return False
     
 def remove_third_char(string: str) -> str:
-    nouveau_mot = original.replace
+    nouveau_mot = string.replace
     return nouveau_mot
 
 
