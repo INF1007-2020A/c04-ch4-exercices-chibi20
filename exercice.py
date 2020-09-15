@@ -24,7 +24,6 @@ def get_number_of_char(string: str, char: str) -> int:
     for i in len(string):
         if string[i] == char:
             occurence+=1
-    
     return occurence
 
 
