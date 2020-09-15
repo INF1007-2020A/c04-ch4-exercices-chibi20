@@ -19,9 +19,9 @@ def replace_char(string: str, old_char: str, new_char: str) -> str:
     return new_string
 
 
-def get_number_of_char(string: strchar: str) -> int:
+def get_number_of_char(string: str, char: str) -> int:
     occurence = 0
-    for i=0 in len(string):
+    for i in len(string):
         if string[i] == char:
             occurence+=1
     
