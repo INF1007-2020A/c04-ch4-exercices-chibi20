@@ -32,7 +32,9 @@ def get_number_of_words(sentence: str, word: str) -> int:
     nb_mots = 0
     for i in range(0, len(sentence)):
         if (sentence[i] == "doo"):
-            nb_m
+            nb_mots+=1
+    
+    
     pass
 
 
