@@ -29,10 +29,7 @@ def get_number_of_char(string: str, char: str) -> int:
 
 
 def get_number_of_words(sentence: str, word: str) -> int:
-    occurence = 0
-    for i in range(0, len(string)):
-        if string[i] == char:
-            occurence+=1
+    words = 
     nb_mots = 0
     for i in range(0, len(sentence)):
         if (sentence[i] == word):
