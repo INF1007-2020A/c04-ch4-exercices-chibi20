@@ -32,7 +32,7 @@ def get_number_of_words(sentence: str, word: str) -> int:
     words = sentence.split()
     nb_mots = 0
     for i in words:
-        if (words[i] == word):
+        if (i == word):
             nb_mots+=1
     
     return nb_mots
